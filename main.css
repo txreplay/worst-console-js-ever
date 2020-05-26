@@ -1,0 +1,77 @@
+::selection { background: rgba(195, 35, 25, 1); }
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('ComicRelief-webfont.ttf');
+}
+
+body{
+	background-color: rgba(188, 32, 169, 0.8);
+    margin: 0;
+    background-image: url('push.png');
+    padding-top: 70px;
+}
+#overlaw{
+    background: rgba(188, 32, 169, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+input, input:focus {
+    border: none;
+    outline: none;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background: transparent;
+    color: transparent;
+    text-shadow: 0 0 0 white;
+    font-family: 'comic_reliefregular';
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+header p{
+    font-family: 'comic_reliefregular';
+    height: 20px;
+    width: 100%;
+    background: rgb(228,36,132);
+    padding: 20px 35px;
+    position: relative;
+    color: white;
+    margin: 0;
+}
+header p:before{
+    content: "";
+    width: 28px;
+    height: 28px;
+    background: url(http://cdn.flaticon.com/png/256/58286.png);
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#commandLine, .prevCommandStyle{
+    margin: 10px 40px;
+    color: white;
+    position: relative;
+    font-family: 'comic_reliefregular';
+}
+#commandLine:before, .prevCommandStyle:before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url(http://cdn.flaticon.com/png/256/53709.png);
+    position: absolute;
+    top: 0;
+    left: -30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
